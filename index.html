@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="script.js" defer></script>
+    <title>Anonymous Coffee - Free Coffee for Programers</title>
+</head>
+
+<body>
+    <header class="header flex justify-around align-center">
+        <div class="logo">
+            <img src="image/logo.png" alt="Logo Image">
+        </div>
+        <nav>
+            <ul class="flex gap-2 font-1-2" id="mobile-menu">
+                <i class="fa-solid fa-xmark" id="hide-menu"></i>
+                <li><a href="#home"> Home <span class="li-span"></span></a></li>
+                <li><a href="#about">About <span class="li-span"></span></a></li>
+                <li><a href="#menu">Menu <span class="li-span"></span></a></li>
+                <li><a href="#products">Products<span class="li-span"></span></a></li>
+                <li><a href="#review">Review<span class="li-span"></span></a></li>
+                <li><a href="#contact">Contact<span class="li-span"></span></a></li>
+                <li><a href="#blog">Blog<span class="li-span"></span></a></li>
+            </ul>
+        </nav>
+        <div class="search-cart-icons font-1-5">
+            <!-- ********* Search ************************ -->
+            <i class="fa-solid fa-magnifying-glass mx-2" id="search-icon"></i>
+            <div class="search" id="search-form">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text search-text" placeholder="search here...">
+            </div>
+            <!-- ********* Cart Container ************************ -->
+            <i class="fa-solid fa-cart-shopping" id="cartIcon"></i>
+            <div class="cart-container" id="cart-container">
+                <div class="cart-item flex gap-2">
+                    <img src="image/cart-item-1.png" alt="Cart Item">
+                    <div>
+                        <h4>Cart Item 01</h4>
+                        <div class="font-1-2">$15.99/-</div>
+                    </div>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="cart-item flex gap-2">
+                    <img src="image/cart-item-2.png" alt="Cart Item">
+                    <div>
+                        <h4>Cart Item 01</h4>
+                        <div class="font-1-2">$15.99/-</div>
+                    </div>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="cart-item flex gap-2">
+                    <img src="image/cart-item-3.png" alt="Cart Item">
+                    <div>
+                        <h4>Cart Item 01</h4>
+                        <div class="font-1-2">$15.99/-</div>
+                    </div>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="cart-item flex gap-2">
+                    <img src="image/cart-item-4.png" alt="Cart Item">
+                    <div>
+                        <h4>Cart Item 01</h4>
+                        <div class="font-1-2">$15.99/-</div>
+                    </div>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <button class="coffee-btn mt-3">Checkout Now</button>
+            </div>
+            <i class="fa-solid fa-bars" id="menu-btn"></i>
+        </div>
+    </header>
+
+    <!-- ******************* Home ********************************************************** -->
+    <section class="home flex" id="home">
+        <div class="content my-4">
+            <h2 class="font-3-5">FRESH COFFEE IN <br>THE MORNING</h2>
+            <p class="my-2">Lorem ipsum, dolor sit amet . Voluptas quo enim
+                consequuntur voluptatibus <br> illum porro at assumenda voluptatem minus qui?</p>
+            <button class="coffee-btn">Explore Now</button>
+        </div>
+    </section>
+
+    <!-- ******************* About Us ********************************************************** -->
+
+    <section class="about" id="about">
+        <h2 class=" text-center font-3-5 my-2"><span class="coffee-color-heading">ABOUT</span> US</h2>
+        <div class="about-card">
+            <div class="about-img">
+                <img src="image/about-img.jpeg" alt="About Image">
+            </div>
+            <div class="about-content">
+                <h3 class="my-1 font-2-5">What Makes Our Coffee Special ?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla minima exercitationem nam laudantium
+                    veritatis, repudiandae vel tenetur sed ducimus nostrum?</p>
+                <p class="my-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla minima exercitationem nam
+                    laudantium veritatis, repudiandae vel tenetur sed ducimus nostrum? </p>
+                <button class="coffee-btn">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ******************* Menu ********************************************************** -->
+    <section class="menu" id="menu">
+        <h2 class="text-center font-3 mb-2">OUR <span class="coffee-color-heading">MENU</span></h2>
+        <div class="menu-items">
+            <div class="menu-card">
+                <img src="image/menu-1.png" alt="Coffee Image">
+                <h3>Tasty And Healthy</h3>
+                <div class="price">$15.99 <span>$20.99</span></div>
+                <button class="coffee-btn">Add To Cart</button>
+            </div>
+            <div class="menu-card">
+                <img src="image/menu-2.png" alt="Coffee Image">
+                <h3>Tasty And Healthy</h3>
+                <div class="price">$15.99 <span>$20.99</span></div>
+                <button class="coffee-btn">Add To Cart</button>
+            </div>
+            <div class="menu-card">
+                <img src="image/menu-3.png" alt="Coffee Image">
+                <h3>Tasty And Healthy</h3>
+                <div class="price">$15.99 <span>$20.99</span></div>
+                <button class="coffee-btn">Add To Cart</button>
+            </div>
+            <div class="menu-card">
+                <img src="image/menu-4.png" alt="Coffee Image">
+                <h3>Tasty And Healthy</h3>
+                <div class="price">$15.99 <span>$20.99</span></div>
+                <button class="coffee-btn">Add To Cart</button>
+            </div>
+            <div class="menu-card">
+                <img src="image/menu-5.png" alt="Coffee Image">
+                <h3>Tasty And Healthy</h3>
+                <div class="price">$15.99 <span>$20.99</span></div>
+                <button class="coffee-btn">Add To Cart</button>
+            </div>
+            <div class="menu-card">
+                <img src="image/menu-6.png" alt="Coffee Image">
+                <h3>Tasty And Healthy</h3>
+                <div class="price">$15.99 <span>$20.99</span></div>
+                <button class="coffee-btn">Add To Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ******************* Our Products ********************************************************** -->
+
+    <section class="products" id="products">
+        <h2 class="font-2-5 text-center mb-2">OUR <span class="coffee-color-heading">PRODUCTS</span></h2>
+        <div class="product-items">
+            <div class="product-card">
+                <div class="icons">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-regular fa-eye"></i>
+                </div>
+                <img src="image/product-1.png" alt="Our Product">
+                <h3 class="font-1-5">Fresh Coffee</h3>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="price">$25.99 <span>$35.99</span></div>
+            </div>
+            <div class="product-card">
+                <div class="icons">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-regular fa-eye"></i>
+                </div>
+                <img src="image/product-2.png" alt="Our Product">
+                <h3 class="font-1-5">Fresh Coffee</h3>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="price">$25.99 <span>$35.99</span></div>
+            </div>
+            <div class="product-card">
+                <div class="icons">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-regular fa-eye"></i>
+                </div>
+                <img src="image/product-3.png" alt="Our Product">
+                <h3 class="font-1-5">Fresh Coffee</h3>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="price">$25.99 <span>$35.99</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ******************* Review ********************************************************** -->
+
+    <section class="review" id="review">
+        <h2 class="text-center font-2-5 mb-2">CUTOMER'S <span class="coffee-color-heading">REVIEW</span></h2>
+        <div class="review-cards">
+            <div class="review-card">
+                <img src="image/quote-img.png">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem illo deserunt numquam
+                    accusantium porro nostrum provident eius at expedita dolores.</p>
+                <img src="image/pic-1.png" class="customer-image" alt="Customer Image">
+                <h3 class="font-1-5">John Deo</h3>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+            <div class="review-card">
+                <img src="image/quote-img.png">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem illo deserunt numquam
+                    accusantium porro nostrum provident eius at expedita dolores.</p>
+                <img src="image/pic-2.png" class="customer-image" alt="Customer Image">
+                <h3 class="font-1-5">John Deo</h3>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+            <div class="review-card">
+                <img src="image/quote-img.png">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem illo deserunt numquam
+                    accusantium porro nostrum provident eius at expedita dolores.</p>
+                <img src="image/pic-3.png" class="customer-image" alt="Customer Image">
+                <h3 class="font-1-5">Mylan Gabriel</h3>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ******************* Contact Us ****************************************************** -->
+
+    <section class="contact" id="contact">
+        <h2 class="font-2 mb-2"><span class="coffee-color-heading">CONTACT</span> US</h2>
+        <div class="contact-card">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54980.66163458402!2d72.65748135210735!3d30.541071440649027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39232a0c466df715%3A0x9dbbc742bdf47fa!2sChichawatni%2C%20Sahiwal%20District%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1676131877893!5m2!1sen!2s"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <h3 class="mt-2 font-2">GET IN TOUCH</h3>
+            <div class="input-box">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" placeholder="Name" required>
+            </div>
+            <div class="input-box">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="Email" required>
+            </div>
+            <div class="input-box">
+                <textarea rows="5" placeholder="Place Your Order" required></textarea>
+            </div>
+            <button class="coffee-btn">Contact Now</button>
+        </div>
+    </section>
+
+    <!-- ******************* Blog ****************************************************** -->
+
+    <section class="blog" id="blog">
+        <div class="blog-heading">
+            <h2 class="font-2-5 my-2 text-center">OUR <span class="coffee-color-heading">BLOG</span></h2>
+        </div>
+        <div class="blog-cards">
+            <div class="blog-card">
+                <div class="blog-card-image">
+                    <img src="image/blog-1.jpeg" alt="Blog Image">
+                </div>
+                <div class="blog-card-content">
+                    <h3>Tasty And Refreshing Coffee</h3>
+                    <h4 class="coffee-color-heading">By Admin / 21st May, 2023</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint autem laudantium quos harum.
+                    </p>
+                    <button class="coffee-btn">Read More</button>
+                </div>
+            </div>
+            <div class="blog-card">
+                <div class="blog-card-image">
+                    <img src="image/blog-2.jpeg" alt="Blog Image">
+                </div>
+                <div class="blog-card-content">
+                    <h3>Tasty And Refreshing Coffee</h3>
+                    <h4 class="coffee-color-heading">By Admin / 21st May, 2023</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint autem laudantium quos harum.
+                    </p>
+                    <button class="coffee-btn">Read More</button>
+                </div>
+            </div>
+            <div class="blog-card">
+                <div class="blog-card-image">
+                    <img src="image/blog-3.jpeg" alt="Blog Image">
+                </div>
+                <div class="blog-card-content">
+                    <h3>Tasty And Refreshing Coffee</h3>
+                    <h4 class="coffee-color-heading">By Admin / 21st May, 2023</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint autem laudantium quos harum.
+                    </p>
+                    <button class="coffee-btn">Read More</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ******************* Footer ****************************************************** -->
+    <footer>
+        <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-pinterest"></i>
+        </div>
+        <div class="nav-headings">
+            <i><a href="#home"> Home <span class="li-span"></span></a></i>
+            <i><a href="#about">About <span class="li-span"></span></a></i>
+            <i><a href="#menu">Menu <span class="li-span"></span></a></i>
+            <i><a href="#products">Products<span class="li-span"></span></a></i>
+            <i><a href="#review">Review<span class="li-span"></span></a></i>
+            <i><a href="#contact">Contact<span class="li-span"></span></a></i>
+            <i><a href="#blog">Blog<span class="li-span"></span></a></i>
+        </div>
+        <div class="copyright">
+            <h4 class="font-1-5"> Created By <span class="coffee-color-heading">Jawad Ali</span> | All Rights Reserved
+            </h4>
+        </div>
+    </footer>
+
+</body>
+
+</html>

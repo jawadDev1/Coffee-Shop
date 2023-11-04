@@ -1,0 +1,151 @@
+/* *********************** Flex Box ************************************* */
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.gap-2{
+    gap: 2rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* *********************** Margin ************************************* */
+.my-1{
+    margin: 1rem 0;
+}
+.my-2{
+    margin: 2rem 0;
+}
+.my-3{
+    margin: 3rem 0;
+}
+
+.my-4{
+    margin: 4rem 0;
+}
+.mx-1{
+    margin: 0 1rem;
+}
+.mx-2{
+    margin: 0 2rem;
+}
+.mx-3{
+    margin: 0 3rem;
+}
+.mx-4{
+    margin: 0 4rem;
+}
+
+.m-1{
+    margin: 1rem;
+}
+
+.m-2{
+    margin: 2rem;
+}
+.m-3{
+    margin: 3rem;
+}
+
+.m-4{
+    margin: 4rem;
+}
+
+.mb-1{
+    margin-bottom: 1rem;
+}
+.mb-2{
+    margin-bottom: 2rem;
+}
+.mb-3{
+    margin-bottom: 3rem;
+}
+.mt-1{
+    margin-top: 1rem;
+}
+.mt-2{
+    margin-top: 2rem;
+}
+.mt-3{
+    margin-top: 3rem;
+}
+
+/* *********************** Font ************************************* */
+
+.font-1-2{
+    font-size: 1.2rem;
+}
+.font-1-5{
+    font-size: 1.5rem;
+}
+.font-2{
+    font-size: 2rem;
+}
+.font-2-5{
+    font-size: 2.5rem;
+}
+.font-3{
+    font-size: 3rem;
+}
+.font-3-5{
+    font-size: 3.5rem;
+}
+
+/* *********************** Button ************************************* */
+
+.coffee-btn{
+    background: #d3ad7f;
+    /* width: 9rem; */
+    color: white;
+    padding: .5rem 1.2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.coffee-btn:hover{
+    letter-spacing: .2rem;
+}
+
+
+.coffee-color-heading{
+    color: #d3ad7f;
+}
+
+
+
+
+
+/* .products .box-container .box .content .price span{
+    text-decoration: line-through;
+    font-weight: lighter;
+    font-size: 1.5rem;
+} */
